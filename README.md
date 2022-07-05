@@ -23,4 +23,13 @@ git config --global user.email "you@example.com"
 git push origin "branch_name"
 
 # To create new branch
-git checkout -b
+git checkout -b "branch_name"
+
+# To switch branch
+git checkout "branch_name"
+
+# Set upstream for new branch
+git push --set-upstream origin "branch_name"
+
+# Pull the code 
+git pull origin "branch_name"
