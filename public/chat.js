@@ -19,7 +19,7 @@ window.onload = function() {
             content.innerHTML = html;
             content.scrollTop = content.scrollHeight;
         } else {
-            console.log("There is a problem:", data);
+            console.log("There is a problem", data);
         }
     });
     // button to send message to socket
